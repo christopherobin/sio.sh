@@ -1,0 +1,23 @@
+{
+  "author": "Christophe Robin <crobin@nekoo.com> (https://github.com/christopherobin/)",
+  "name": "sio.sh",
+  "description": "Access Socket.IO servers from the shell",
+  "version": "0.1.0",
+  "homepage": "https://github.com/christopherobin/sio.sh",
+  "repository": {
+    "url": "https://github.com/christopherobin/sio.sh.git"
+  },
+  "dependencies": {
+    "socket.io-client": ">= 0.0.1",
+    "colors": ">= 0.0.1"
+  },
+  "bin" : {
+    "sio-client" : "lib/cli.js"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  },
+  "preferGlobal" : true
+}
